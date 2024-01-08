@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+   background-color: #EDCBD2;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    width:70%;
+    margin-left: 14%;
+    
+    background-color: #87B4C7; 
+    border-radius: 30px; 
+    border-top: 20px solid #80c4b7;
+    border-bottom: 20px solid #80c4b7;
+   
+}
+#button {
+    background-color: #d54734;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.img{
+    text-align: center;
+    padding: 50px;
+    
+    
+    
+}
+
+h1 {
+    font-size: 36px;
+    color: #333; /* Heading text color */
+}
+
+
+
+.dog-image {
+    margin-top: 0%;
+    width: 100%;
+    max-width: 800px; 
+   max-height: 1000px;
+   border-radius: 2%;
+}
