@@ -3,6 +3,10 @@ After understanding the virtual game given in the resource, we had to build a wo
 I had to try this task 3-4 times to properly tweak the code and upload it successfully to the ESP32 microcontroller.
 
 
+https://github.com/mythili953/general-tasks/assets/122284990/2d65b8f4-f0d2-476b-b411-e23d89de355c
+
+
+
 # TASK 2: BASICS OF MQTT PROTOCOL
 MQTT (Message Queuing Telemetry Transport) is a messaging protocol for restricted low-bandwidth networks and extremely high-latency IoT devices. Since Message Queuing Telemetry Transport is specialized for low-bandwidth, high-latency environments, it is an ideal protocol for machine-to-machine (M2M) communication.\nMQTT works on the publisher / subscriber principle and is operated via a central broker. This means that the sender and receiver have no direct connection. The MQTT broker is the center of every Publish / Subscribe protocol. The broker is responsible for receiving all messages, filtering the messages, determining who subscribed to each message and sending the message to those subscribed clients.
 
@@ -30,8 +34,16 @@ https://github.com/mythili953/general-tasks/assets/122284990/b772145e-727d-4617-
 # TASK 6: COMMUNICATION USING I2C PROTOCOL
 The I2C (Inter-Integrated Circuit) protocol is a serial communication bus that uses two wires, the serial data line (SDA) and the serial clock line (SCL), to send and receive data. The protocol supports multiple target devices on a communication bus and can also support multiple controllers that send and receive commands and data. I found a resource article online which set-up a serial communication between the ESP32 and Arduino Uno. After uploading the code properly by ensuring I selected the right COM, I was able to see that the message was sent using the Slave’s serial monitor i.e. the ESP32. 
 
+
+https://github.com/mythili953/general-tasks/assets/122284990/561a1558-b102-405b-b9f6-39164792e4b7
+
+
 # TASK 7: FLASHING MORSE CODE
 I faced a lot of difficulty in this task as I wasn’t able to generate an IP address in order to access the webserver to input the message. As I was unable to figure out the issue&comma; I resorted to inputting the message using the serial monitor. When a message is input&comma; it is converted to morse code using the Morse code library. A short LED blink indicates a dot (.) and a long LED blink indicates a dash (-).
+
+
+https://github.com/mythili953/general-tasks/assets/122284990/4620f740-b9b9-498e-a4fd-c03dcde71e03
+
 
 # TASK 8: SOIL MOISTURE SENSOR
 The resource article provided helped me figure out this task quite easily. We had to monitor the moisture level using the serial monitor and alert the user if the moisture level dropped below a certain level. The water level was monitored using the AOUT pin. The voltage in the AOUT pin is inversely proportional to the water level.
